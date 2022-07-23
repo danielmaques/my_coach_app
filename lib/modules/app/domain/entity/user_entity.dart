@@ -1,7 +1,7 @@
-class UserModel {
+class UserEntity {
   final String email;
   final String senha;
   final String nome;
 
-  UserModel(this.email, this.senha, this.nome);
+  UserEntity(this.email, this.senha, this.nome);
 }
