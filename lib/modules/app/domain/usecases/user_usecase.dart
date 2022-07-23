@@ -8,7 +8,7 @@ abstract class UserUseCase {
 
 class UserUseCaseImpl implements UserUseCase {
   @override
-  Future<Either<UserErros, UserModel>> call(String user) {
+  Future<Either<UserErros, UserModel>> call(String user) async {
     // TODO: implement call
     throw UnimplementedError();
   }
