@@ -1,0 +1,1 @@
+class UserErros implements Exception{}
