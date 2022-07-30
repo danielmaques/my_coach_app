@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>23315825526-rkonf5br2ev4242t72ntaj57d3u9u4kr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.23315825526-rkonf5br2ev4242t72ntaj57d3u9u4kr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDos1XydJF1Rb2BlcdRMIRIKY-vp3Iw7ss</string>
+	<key>GCM_SENDER_ID</key>
+	<string>23315825526</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.myCoachApp</string>
+	<key>PROJECT_ID</key>
+	<string>my-coach-93c56</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-coach-93c56.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:23315825526:ios:7dfed35c191b0d9d4d7057</string>
+	<key>DATABASE_URL</key>
+	<string>https://my-coach-93c56-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
