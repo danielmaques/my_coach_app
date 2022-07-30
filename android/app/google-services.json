@@ -8,7 +8,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:23315825526:android:b41a91308e81a5f14d7057",
+        "mobilesdk_app_id": "1:23315825526:android:09b1bd2952ea29ac4d7057",
         "android_client_info": {
           "package_name": "com.example.my_coach_app"
         }
@@ -30,6 +30,13 @@
             {
               "client_id": "23315825526-34d3a9ebimn4qp5nss3j303s8n71kufr.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "23315825526-rkonf5br2ev4242t72ntaj57d3u9u4kr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myCoachApp"
+              }
             }
           ]
         }
