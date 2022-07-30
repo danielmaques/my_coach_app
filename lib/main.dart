@@ -1,11 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:my_coach_app/firebase_options.dart';
 import 'package:my_coach_app/modules/app/app_module.dart';
 
 void main() async {
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp();
   runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }
 
