@@ -18,6 +18,7 @@ dependencies:
   flutter_bloc: ^8.0.1
   flutter_modular: ^5.0.3
   modular_core: ^2.0.3+1
+  firebase_core: ^1.20.0
   http_mock_adapter: ^0.3.3
   my_coach_ui:
     path: ../my_coach_ui

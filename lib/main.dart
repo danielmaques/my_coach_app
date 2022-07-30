@@ -1,9 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:my_coach_app/firebase_options.dart';
 import 'package:my_coach_app/modules/app/app_module.dart';
 
-void main() {
-  return runApp(ModularApp(module: AppModule(), child: const AppWidget()));
+void main() async {
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }
 
 class AppWidget extends StatelessWidget {
