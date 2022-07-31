@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:my_coach_app/modules/login/login_route.dart';
 import 'package:my_coach_app/modules/login/ui/login_page.dart';
 
 class LoginModule extends Module {
@@ -12,6 +13,6 @@ class LoginModule extends Module {
 
   @override
   List<ModularRoute> get routes => [
-        ChildRoute('/', child: (context, args) => LoginPage()),
+        ChildRoute(LoginRoute.rootRoute, child: (context, args) => LoginPage()),
       ];
 }

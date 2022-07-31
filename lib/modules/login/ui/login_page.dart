@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:my_coach_ui/my_coach_ui.dart';
 
@@ -10,41 +12,41 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   late TextEditingController emailController;
-  late TextEditingController senhaController;
+  late TextEditingController passwordController;
 
   @override
   void initState() {
     emailController = TextEditingController();
-    senhaController = TextEditingController();
+    passwordController = TextEditingController();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.white,
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 24),
+      body: Container(
+        padding: EdgeInsets.symmetric(horizontal: 24),
         child: Column(
           children: [
-            const Spacer(),
+            Spacer(),
             CoachInputField(
               controller: emailController,
               label: 'Email',
-              onChanged: (value) {},
+              prefixIcon: AppIcons.mail,
             ),
-            const SizedBox(height: 12),
+            SizedBox(height: 12),
             CoachInputField(
-              controller: senhaController,
-              prefixIcon: AppIcons.lock_closed,
+              controller: passwordController,
               label: 'Senha',
-              onChanged: (value) {},
+              prefixIcon: AppIcons.lock_closed,
             ),
-            const SizedBox(height: 48),
-            const CoachButton(
+            SizedBox(height: 48),
+            CoachButton(
+              label: 'CONTINUAR',
               buttonRadius: true,
+              onTap: null,
             ),
-            const Spacer(),
+            Spacer(),
           ],
         ),
       ),
